@@ -1,8 +1,9 @@
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F101-storage-account-create%2Fazuredeploy.json)
+
 # CICD_tutorial
 Repository to perform the actions along with the following video: https://www.youtube.com/watch?v=SOtC1VLZKm4
 
 The following changes in the process are necessary to make sure you can follow along:
-
 
 # dotnet
 GET is different location; the sample project now contains "WeatherForecastController" instead of "ValuesController". Go to https://localhost:5001/weatherforecast to see the results
