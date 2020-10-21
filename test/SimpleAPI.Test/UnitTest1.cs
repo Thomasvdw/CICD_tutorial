@@ -11,7 +11,7 @@ namespace SimpleAPI.Test
         public void GetReturnsStuff()
         { 
             var returnValue = controller.Get();
-            Assert.Equal("Stuff", returnValue.Value);
+            Assert.Equal("Thijs is dik", returnValue.Value);
         }
 
         [Fact]
