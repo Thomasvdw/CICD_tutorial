@@ -31,7 +31,7 @@ namespace SimpleAPI.Controllers
         //public IEnumerable<WeatherForecast> Get()
         public ActionResult<string> Get()
         {
-            return "Thijs is dik";
+            return "Het weer? Het regen dikke Thijs'en!";
             /*
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
