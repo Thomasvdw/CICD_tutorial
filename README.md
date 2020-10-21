@@ -6,7 +6,7 @@ The following changes in the process are necessary to make sure you can follow a
 
 # dotnet
 GET is different location; the sample project now contains "WeatherForecastController" instead of "ValuesController". Go to https://localhost:5001/weatherforecast to see the results
-Simplest way forward are some small changes to this controller to make it work with the rest of the tutorial. Go ahead and fork my version to keep going. See here: https://github.com/Thomasvdw/CICD_tutorial
+Simplest way forward are some small changes to this controller to make it work with the rest of the tutorial. Go ahead and fork my repo to keep going. 
 
 # YAML:
 the .yml file coming from Azure has a different syntax, includes testing immediately. But if this testing fails it does not stop the build for some reason. 
